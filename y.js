@@ -1,0 +1,10 @@
+var a=100;
+let b=80;
+let c =a+b;
+let d =a*b;
+let e =a-b;
+let f =a/b;
+console.log("total c:-"+ (a+b));
+console.log("total c:-"+ (a*b));
+console.log("total c:-"+ (a-b));
+console.log("total c:-"+ (a/b));
