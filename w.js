@@ -1,9 +1,17 @@
+let m= "actual arguement"; //global variable
 //function declaration
 
-function w()
+function formal(n) //formal parameter
+
 {
-    console.log("function w");
+    console.log( n+", formal arguement");
+    
+    //local variable
+    let a= 27;
+    const b= 22;
+    console.log(a*b);
+    console.log(a/b);
 }
 
 //function calling
-w();
+formal(m); //actual parameter
