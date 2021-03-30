@@ -1,9 +1,11 @@
+let m= "actual arguement";
 //function declaration
 
-function we()
+function formal(n) //formal parameter
+
 {
-    console.log("we");
+    console.log( n+", formal arguement");
 }
 
 //function calling
-we();
+formal(m); //actual parameter
