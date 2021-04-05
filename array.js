@@ -22,6 +22,7 @@ let x = ["harshita", //string   index 0
 
         }]//array of object
 ]//end of array
+console.log("name:-",x[0], "age:-", x[1], "float:-", x[2],"surname:-", x[3],x[4].MyName );
 console.log("sibling:-", x[5][1].brother,",", x[5][1].sister);
 console.log("parents:-", x[5][0].fatherName,",", x[5][0].motherName);
 console.log(x[5][1].sibling());
