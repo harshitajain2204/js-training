@@ -3,4 +3,4 @@ function hello() {
     console.log("hello from function")
 }
 //object.property={};
-module.exports=hello;
+module.exports = hello;
